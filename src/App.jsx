@@ -4,6 +4,7 @@ import Pillars from './components/Pillars'
 import About from './components/About'
 import Curriculum from './components/Curriculum'
 import Hakatoni from './components/Hakatoni'
+import NakonKampa from './components/NakonKampa'
 import Sponsors from './components/Sponsors'
 import Speakers from './components/Speakers'
 import Mentors from './components/Mentors'
@@ -23,6 +24,7 @@ export default function App() {
         <About />
         <Curriculum />
         <Hakatoni />
+        <NakonKampa />
         <Sponsors />
         <Speakers />
         <Mentors />
