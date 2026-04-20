@@ -21,15 +21,28 @@ export default function Sponsors() {
     <>
       <section className="bg-light py-20 px-6">
         <div className="max-w-site mx-auto">
-          <span className="block text-accent text-[0.72rem] font-bold tracking-[0.2em] uppercase mb-3">
-            Učešće
-          </span>
-          <h2 className="font-heading text-[clamp(1.8rem,3vw,2.4rem)] mb-4">
-            Kako da postaneš polaznik kampa?
-          </h2>
-          <p className="text-[0.97rem] font-light text-[#555] leading-relaxed max-w-[680px]">
-            Učešće na kampu je besplatno. Kako smatramo da finansije ne smeju biti prepreka obrazovanju, sponzori kampa će pokriti troškove održavanja.
-          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+            <div>
+              <span className="block text-accent text-[0.72rem] font-bold tracking-[0.2em] uppercase mb-3">
+                Učešće
+              </span>
+              <h2 className="font-heading text-[clamp(1.8rem,3vw,2.4rem)] mb-4">
+                Kako da postaneš polaznik kampa?
+              </h2>
+              <p className="text-[0.97rem] font-light text-[#555] leading-relaxed max-w-[680px]">
+                Učešće na kampu je besplatno. Kako smatramo da finansije ne smeju biti prepreka obrazovanju, sponzori kampa će pokriti troškove održavanja.
+              </p>
+            </div>
+
+            <div>
+              <img
+                src="/images/sponsors/header.jpg"
+                alt="Atmosfera sa Web3 kampa"
+                loading="lazy"
+                className="w-full rounded"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
