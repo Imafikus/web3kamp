@@ -3,10 +3,9 @@ const topics = [
   'Algoritmi i strukture podataka u blockchain čvorovima',
   'Pametni ugovori i decentralizovane virtuelne mašine',
   'Ethereum workshop',
-  'Rust workshop',
-  'PLONK ispod haube',
-  'Decentralizacija kao paradigma',
-  'Inovacije u Ethereum ekosistemu',
+  'Solana workshop',
+  'Primena AI u blockhainu',
+  'Kriptografija i privatnost',
 ]
 
 export default function Curriculum() {
@@ -21,13 +20,13 @@ export default function Curriculum() {
 
           <div>
             <span className="block text-accent text-[0.72rem] font-bold tracking-[0.2em] uppercase mb-3">
-              Program
+              Kamp
             </span>
             <h2 className="font-heading text-[clamp(1.8rem,3vw,2.4rem)] leading-[1.2] mb-4">
-              Deset dana predavanja, radionica i boravka u IS Petnica
+              Jedanaest dana predavanja, radionica i boravka u IS Petnica
             </h2>
             <p className="text-[0.9rem] font-light text-[#555] leading-relaxed mb-8">
-              Kamp traje od 1. jula do 10. avgusta. Tokom kampa, imaćeš priliku da pohađaš više od 50 sati predavanja fokusiranih na najbitnije aspekte novih tehnologija koje zbirno nose naziv Web3
+              Kamp traje od 31. jula do 10. avgusta. Tokom kampa, imaćeš priliku da pohađaš više od 50 sati predavanja fokusiranih na najbitnije aspekte novih tehnologija koje zbirno nose naziv Web3
             </p>
             <ul>
               {topics.map((t, i) => (

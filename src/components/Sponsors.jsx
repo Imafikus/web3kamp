@@ -25,10 +25,10 @@ export default function Sponsors() {
             Učešće
           </span>
           <h2 className="font-heading text-[clamp(1.8rem,3vw,2.4rem)] mb-4">
-            Kako da postaneš polaznik programa?
+            Kako da postaneš polaznik kampa?
           </h2>
           <p className="text-[0.97rem] font-light text-[#555] leading-relaxed max-w-[680px]">
-            Učešće na seminaru je besplatno. Kako smatramo da finansije ne smeju biti prepreka obrazovanju, sponzori seminara će pokriti troškove održavanja seminara.
+            Učešće na kampu je besplatno. Kako smatramo da finansije ne smeju biti prepreka obrazovanju, sponzori kampa će pokriti troškove održavanja.
           </p>
         </div>
       </section>
@@ -39,7 +39,7 @@ export default function Sponsors() {
             Podržavaju nas
           </span>
           <h2 className="font-heading text-[clamp(1.6rem,3vw,2.2rem)] mb-12">
-            Sponzori seminara
+            Sponzori kampa
           </h2>
           <div className="flex flex-wrap justify-center gap-4">
             {sponsors.map(s => (

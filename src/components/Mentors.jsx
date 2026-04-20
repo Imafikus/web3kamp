@@ -20,7 +20,7 @@ export default function Mentors() {
         <span className="block text-accent text-[0.72rem] font-bold tracking-[0.2em] uppercase mb-3">
           Mentori
         </span>
-        <h2 className="font-heading text-3xl mb-12">Mentori programa</h2>
+        <h2 className="font-heading text-3xl mb-12">Mentori</h2>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8">
           {mentors.map(m => (

@@ -13,7 +13,7 @@ export default function SamostalniRad() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
           <div>
             <p className="text-[0.97rem] font-light text-[#aaa] leading-[1.85]">
-              Tokom predavanja i radionica imaćeš priliku da uz našu pomoć oformiš tim, i uz pomoć naših mentora radiš na projektu koji treba da utvrdi i demonstrira novo stečena znanja. Na kraju završenog timskog projekta, svi polaznici dobiće Proof of Attendance tokene na Ethereum mreži i smernice za dalji rad na sopstvenoj ideji.
+              Tokom predavanja i radionica imaćeš priliku da uz našu pomoć oformiš tim, i uz pomoć naših mentora radiš na projektu koji treba da utvrdi i demonstrira novostečena znanja. Na kraju završenog timskog projekta, svi polaznici dobiće Proof of Attendance tokene na Gnosis mreži i smernice za dalji rad na sopstvenoj ideji.
             </p>
           </div>
           <div>

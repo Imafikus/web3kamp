@@ -50,7 +50,7 @@ Navbar → Hero → Pillars → About → Curriculum → Sponsors → Speakers �
 
 ### About (`src/components/About.jsx`)
 - Bg `/images/events/program-bg.jpg` with bg-dark/80 overlay
-- Heading: "Kome je program namenjen?"
+- Heading: "Kome je kamp namenjen?"
 
 ### Curriculum (`src/components/Curriculum.jsx`)
 - id="predavanja"
@@ -58,7 +58,7 @@ Navbar → Hero → Pillars → About → Curriculum → Sponsors → Speakers �
 - 8 numbered topics
 
 ### Sponsors (`src/components/Sponsors.jsx`)
-- Section heading: "Kako da postaneš polaznik programa?"
+- Section heading: "Kako da postaneš polaznik kampa?"
 - Subsection labels: "Sponzori seminara" + "Prijatelji seminara"
 - Sponsors (white bg cards, 210×110px, logos 150×54px):
   - Ethereum Foundation → sponsor-ethereum.png

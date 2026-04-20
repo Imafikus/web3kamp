@@ -47,7 +47,7 @@ const tracks = [
   {
     Icon: DeepTechIcon,
     tag: 'Web3 Deep Tech',
-    desc: 'Kriptografija, ZK dokazi, ZK-SNARK/STARK sistemi, privatnost i bezbednost pametnih ugovora.',
+    desc: 'Kriptografija, Primena AI, privatnost i bezbednost pametnih ugovora.',
   },
 ]
 

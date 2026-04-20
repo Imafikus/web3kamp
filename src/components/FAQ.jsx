@@ -2,8 +2,8 @@ import { useState } from 'react'
 
 const faqs = [
   {
-    q: 'Šta ulazi u troškove seminara?',
-    a: 'Seminar je besplatan za učesnike',
+    q: 'Šta ulazi u troškove kampa?',
+    a: 'Kamp je besplatan za učesnike',
   },
   {
     q: 'Da li postoji selekcija?',
@@ -14,7 +14,7 @@ const faqs = [
     a: 'Ne, kamp se održava isključivo uživo i potrebno je skoro celodnevno angažovanje u toku trajanja kampa.',
   },
   {
-    q: 'Da li mogu da se prijavim programu ako sam zaposlen?',
+    q: 'Da li mogu da se prijavim na kamp ako sam zaposlen?',
     a: 'Da, cilj nam je da učinimo što veći broj IT profesionalaca \'Web3 pismenim\'. Imaj u vidu da, ako te pozovemo na kamp, očekujemo celodnevno angažovanje, stoga planiraj svoje poslovne obaveze prema tome.',
   },
   {
@@ -27,11 +27,11 @@ const faqs = [
   },
   {
     q: 'Za koga je ovaj kamp namenjen?',
-    a: 'Program je orjentisan prvenstveno ka studentima tehničkih nauka koji su zainteresovani za web3 tehnologiju i imaju prethodnog iskustva sa programiranjem.',
+    a: 'Kamp je orjentisan prvenstveno ka studentima tehničkih nauka koji su zainteresovani za web3 tehnologiju i imaju prethodnog iskustva sa programiranjem.',
   },
   {
-    q: 'Da li se dobija sertifikat na kraju seminara?',
-    a: 'Na kraju uspešno završenog timskog projekta dobija se POAP, odnosno Web3 token koji predstavlja \'Proof of Attendance\'.',
+    q: 'Da li se dobija sertifikat na kraju kampa?',
+    a: 'Na kraju kampa dobija se POAP, odnosno Web3 token koji predstavlja \'Proof of Attendance\'.',
   },
   {
     q: 'Da li je potrebno poznavanje nekog programskog jezika?',
@@ -43,7 +43,7 @@ const faqs = [
   },
   {
     q: 'Koliko dugo traje kamp?',
-    a: 'Kamp će trajati od 31. jula do 10. avgusta 2026. Smeštaj i hrana tokom seminara biće obezbeđeni u IS Petnica.',
+    a: 'Kamp će trajati od 31. jula do 10. avgusta 2026. Smeštaj i hrana tokom kampa biće obezbeđeni u IS Petnica.',
   },
   {
     q: 'Gde se nalazi IS Petnica?',

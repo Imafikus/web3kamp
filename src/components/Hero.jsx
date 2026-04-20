@@ -51,7 +51,7 @@ export default function Hero() {
         <div className="flex justify-center gap-10 mb-11 flex-wrap">
           <div className="flex items-center gap-2 text-[0.95rem] font-light">
             <span className="text-accent"><CalendarIcon /></span>
-            <span>1– 10. avgust 2026.</span>
+            <span>31. jul – 10. avgust 2026.</span>
           </div>
           <div className="flex items-center gap-2 text-[0.95rem] font-light">
             <span className="text-accent"><PinIcon /></span>
