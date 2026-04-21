@@ -8,6 +8,11 @@ const testimonials = [
   { id: 'taqL8JLYq-4', label: 'Testimonijali 2025' },
 ]
 
+const lectures = [
+  { id: 'QVfjstr2y8g', label: 'Predavanja 2024' },
+  { id: 'jR4RgdjtEu0', label: 'Predavanja 2025' },
+]
+
 function VideoGrid({ videos }) {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
@@ -47,6 +52,13 @@ export default function Testimonials() {
 
         <h3 className="font-heading text-xl mb-6">Testimonijali</h3>
         <VideoGrid videos={testimonials} />
+        
+        <div className="my-16 border-t border-dark/10" />
+
+        <h3 className="font-heading text-xl mb-6">Predavanja</h3>
+        <VideoGrid videos={lectures} />
+        
+        
 
       </div>
     </section>

@@ -15,7 +15,7 @@ export default function Curriculum() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
 
           <div>
-            <img src="/images/curriculum/curriculum.png" alt="10 dana predavanja" loading="lazy" className="w-full rounded" />
+            <img src="/images/curriculum/curriculum.jpg" alt="10 dana predavanja" loading="lazy" className="w-full rounded" />
           </div>
 
           <div>
@@ -23,10 +23,10 @@ export default function Curriculum() {
               Kamp
             </span>
             <h2 className="font-heading text-[clamp(1.8rem,3vw,2.4rem)] leading-[1.2] mb-4">
-              Jedanaest dana predavanja, radionica i boravka u IS Petnica
+              11 dana predavanja, radionica i boravka u IS Petnica
             </h2>
             <p className="text-[0.9rem] font-light text-[#555] leading-relaxed mb-8">
-              Kamp traje od 31. jula do 10. avgusta. Tokom kampa, imaćeš priliku da pohađaš više od 50 sati predavanja fokusiranih na najbitnije aspekte novih tehnologija koje zbirno nose naziv Web3
+              Kamp traje od 31. jula do 10. avgusta. Tokom kampa, imaćeš priliku da pohađaš više od 50 sati predavanja fokusiranih na najbitnije aspekte novih tehnologija koje zbirno nose naziv Web3.
             </p>
             <ul>
               {topics.map((t, i) => (

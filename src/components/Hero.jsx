@@ -55,7 +55,7 @@ export default function Hero() {
           </div>
           <div className="flex items-center gap-2 text-[0.95rem] font-light">
             <span className="text-accent"><PinIcon /></span>
-            <span>Istraživačka stanica Petnica</span>
+            <span><a href="https://maps.app.goo.gl/zfToRoRZKr75NSEaA" target="_blank" className="underline hover:no-underline">Istraživačka stanica Petnica</a></span>
           </div>
         </div>
 

@@ -17,7 +17,7 @@ export default function SamostalniRad() {
             </p>
           </div>
           <div>
-            <img src="/images/events/independent-work.png" alt="Samostalni rad" className="w-full rounded" />
+            <img src="/images/events/independent-work.jpg" alt="Samostalni rad" className="w-full rounded" />
           </div>
         </div>
 

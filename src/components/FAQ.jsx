@@ -47,7 +47,7 @@ const faqs = [
   },
   {
     q: 'Gde se nalazi IS Petnica?',
-    a: 'IS Petnica se nalazi na oko 5km od centra Valjeva.',
+    a: <span>IS Petnica se nalazi na oko 5km od centra Valjeva, specifično <a href="https://maps.app.goo.gl/zfToRoRZKr75NSEaA" target="_blank" className="underline hover:no-underline">ovde</a>.</span>
   },
 ]
 
