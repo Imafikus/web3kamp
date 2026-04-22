@@ -22,7 +22,7 @@ export default function Footer() {
           >
             <LinkedInIcon /> LinkedIn
           </a>
-          <a href="mailto:web3kamp@gmail.com" className="text-accent text-[0.82rem] hover:opacity-75 transition-opacity">
+          <a href="mailto:web@petnica.rs" className="text-accent text-[0.82rem] hover:opacity-75 transition-opacity">
             Kontakt
           </a>
         </div>
