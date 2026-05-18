@@ -44,6 +44,9 @@ export default function Navbar() {
           >
             <LinkedInIcon />
           </a>
+          <a href="https://forms.gle/aY5JiAL6A7AtX23E6" target="_blank" rel="noopener noreferrer" className="inline-block bg-accent text-dark px-6 py-2 font-heading font-bold text-xs tracking-[0.06em] rounded-sm hover:opacity-80 transition-opacity">
+            Prijavi se
+          </a>
         </div>
 
         {/* Hamburger */}
@@ -72,6 +75,9 @@ export default function Navbar() {
             className={`${linkClass} flex items-center gap-2`}
           >
             <LinkedInIcon /> LinkedIn
+          </a>
+          <a href="https://forms.gle/aY5JiAL6A7AtX23E6" target="_blank" rel="noopener noreferrer" className="inline-block bg-accent text-dark px-6 py-2 font-heading font-bold text-xs tracking-[0.06em] rounded-sm hover:opacity-80 transition-opacity">
+            Prijavi se
           </a>
         </div>
       )}

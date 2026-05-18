@@ -14,9 +14,9 @@ export default function CTA() {
         <p className="text-white/75 text-[1rem] font-light mb-14 max-w-[520px] mx-auto">
           Pridruži se kampu koji otvara vrata u svet web3 tehnologija.
         </p>
-        <span className="inline-block bg-accent text-dark px-14 py-5 font-heading font-bold text-[1rem] tracking-[0.06em] rounded-sm opacity-70 cursor-default select-none">
-          Prijave kreću uskoro!
-        </span>
+        <a href="https://forms.gle/aY5JiAL6A7AtX23E6" target="_blank" rel="noopener noreferrer" className="inline-block bg-accent text-dark px-14 py-5 font-heading font-bold text-[1rem] tracking-[0.06em] rounded-sm hover:opacity-100 cursor-pointer transition-opacity">
+          Prijavi se
+        </a>
       </div>
     </section>
   )

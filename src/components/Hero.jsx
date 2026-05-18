@@ -44,8 +44,8 @@ export default function Hero() {
           </span>
         </h1>
 
-        <p className="text-[1.05rem] font-light text-[#ccc] leading-relaxed mb-9">
-          Četrvrtu godinu za redom organizujemo kamp posvećen web3 tehnologiji. Eksperti iz akademije i industrije će tokom 11 intenzivnih dana u Istraživačkoj Stanici Petnica raditi sa vama kako bi vam približili primenu web3 tehnologija.
+        <p className="text-[1.05rem] font-light  leading-relaxed mb-9">
+          Četvrtu godinu za redom organizujemo kamp posvećen web3 tehnologiji. Eksperti iz akademije i industrije će tokom 11 intenzivnih dana u Istraživačkoj Stanici Petnica raditi sa vama kako bi vam približili primenu web3 tehnologija.
         </p>
 
         <div className="flex justify-center gap-10 mb-11 flex-wrap">
@@ -59,10 +59,17 @@ export default function Hero() {
           </div>
         </div>
 
-        <span className="inline-block bg-accent text-dark px-11 py-4 font-heading font-bold text-[0.95rem] tracking-[0.06em] rounded-sm opacity-70 cursor-default select-none">
-          Prijave kreću uskoro!
+        <a href="https://forms.gle/aY5JiAL6A7AtX23E6" target="_blank" rel="noopener noreferrer" className="inline-block bg-accent text-dark px-11 py-4 font-heading font-bold text-[0.95rem] tracking-[0.06em] rounded-sm hover:opacity-100 cursor-pointer transition-opacity">
+          Prijavi se
+        </a>
+      <div className="mt-4">
+        <span>
+          Prijave traju do 15. juna!
         </span>
       </div>
+      
+      </div>
+      
     </section>
   )
 }
