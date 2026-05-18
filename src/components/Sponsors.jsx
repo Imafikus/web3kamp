@@ -1,7 +1,7 @@
 const sponsors = [
   // { name: 'Ethereum Foundation', url: 'https://ethereum.foundation', logo: '/images/sponsors/sponsor-ethereum.png' },
   { name: 'Tenderly',            url: 'https://tenderly.co',          logo: '/images/sponsors/sponsor-tenderly.png' },
-  { name: 'Superteam',           url: 'https://superteam.fun',        logo: '/images/sponsors/sponsor-superteam.png' },
+  { name: 'Superteam',           url: 'https://stblkn.notion.site/',        logo: '/images/sponsors/sponsor-superteam.png' },
   { name: 'Decenter',            url: 'https://decenter.org',         logo: '/images/sponsors/sponsor-decenter.png', logoClass: 'w-[185px] h-[70px]' },
   { name: '0xcurvy',             url: 'https://0xcurvy.io',           logo: '/images/sponsors/sponsor-curvy.png' },
   // { name: 'Gno.land',            url: 'https://gno.land',             logo: '/images/sponsors/sponsor-gnoland.png' },
