@@ -4,17 +4,12 @@ const sponsors = [
   { name: 'Superteam',           url: 'https://stblkn.notion.site/',        logo: '/images/sponsors/sponsor-superteam.png' },
   { name: 'Decenter',            url: 'https://decenter.org',         logo: '/images/sponsors/sponsor-decenter.png', logoClass: 'w-[185px] h-[70px]' },
   { name: '0xcurvy',             url: 'https://0xcurvy.io',           logo: '/images/sponsors/sponsor-curvy.png' },
-  // { name: 'Gno.land',            url: 'https://gno.land',             logo: '/images/sponsors/sponsor-gnoland.png' },
 ]
 
-/* Prijatelji seminara — commented out
+
 const friends = [
-  { name: 'Finspot',      url: '#', logo: '/images/friends/friend-finspot.png' },
-  { name: 'Attic42',     url: '#', logo: '/images/friends/friend-attic42.png' },
-  { name: 'Law Decoded',  url: '#', logo: '/images/friends/friend-lawdecoded.png' },
-  { name: '3327',         url: '#', logo: '/images/friends/friend-3327.png' },
+  { name: 'Netokracija',      url: 'https://www.netokracija.rs/', logo: '/images/friends/friend-netokracija.png' },
 ]
-*/
 
 export default function Sponsors() {
   return (
@@ -29,7 +24,7 @@ export default function Sponsors() {
               <h2 className="font-heading text-[clamp(1.8rem,3vw,2.4rem)] mb-4">
                 Kako da postaneš polaznik kampa?
               </h2>
-              <p className="text-[0.97rem] font-light text-[#555] leading-relaxed max-w-[680px]">
+              <p className="text-[0.97rem] font-light text-[#555] leading-relaxed max-w-170">
                 Učešće na kampu je besplatno. Kako smatramo da finansije ne smeju biti prepreka obrazovanju, sponzori kampa će pokriti troškove održavanja.
               </p>
             </div>
@@ -62,11 +57,34 @@ export default function Sponsors() {
                 target="_blank"
                 rel="noopener noreferrer"
                 title={s.name}
-                className="flex items-center justify-center bg-light rounded-sm w-[210px] h-[110px] transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg"
+                className="flex items-center justify-center bg-light rounded-sm w-47.5 h-24.5 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg"
               >
-                <img src={s.logo} alt={s.name} className={`${s.logoClass ?? 'w-[150px] h-[54px]'} object-contain`} />
+                <img src={s.logo} alt={s.name} className={`${s.logoClass ?? 'w-33 h-12'} object-contain`} />
               </a>
             ))}
+          </div>
+
+          <div className="mt-16">
+            <span className="block text-accent text-[0.72rem] font-bold tracking-[0.2em] uppercase mb-3">
+              Zajednica
+            </span>
+            <h3 className="font-heading text-[clamp(1.35rem,2.3vw,1.8rem)] mb-8">
+              Prijatelji seminara
+            </h3>
+            <div className="flex flex-wrap justify-center gap-4">
+              {friends.map(partner => (
+                <a
+                  key={partner.name}
+                  href={partner.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title={partner.name}
+                  className="flex items-center justify-center border border-[#dcdcdc] rounded-sm w-40 h-20 bg-white transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg"
+                >
+                    <img src={partner.logo} alt={partner.name} className="w-26 h-9 object-contain" />
+                </a>
+              ))}
+            </div>
           </div>
         </div>
       </section>
