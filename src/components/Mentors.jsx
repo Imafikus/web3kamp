@@ -1,11 +1,11 @@
 const mentors = [
-  { name: 'Bojan Antunović',     role: 'R&D Researcher',    company: 'Decenter',            photo: '/images/mentors/bojan-antunovic.png' },
-  { name: 'Todor Todorović',     role: 'Software Engineer', company: '',                    photo: '/images/mentors/todor-todorovic.jpg' },
-  { name: 'Stefan Mitrović',     role: 'Protocol Engineer', company: 'Curvy',               photo: '/images/mentors/stefan-mitrovic.jpg' },
-  { name: 'Ivan Džambasanović',  role: 'R&D Engineer',      company: 'Decenter',            photo: '/images/mentors/ivan-dzambasanovic.jpg' },
-  { name: 'Stefan Nikolić',      role: 'Software Engineer', company: 'gno.land',            photo: '/images/mentors/stefan-nikolic.jpg' },
-  { name: 'Nemanja Divljaković', role: 'Software Engineer', company: 'Polynomial Protocol', photo: '/images/mentors/nemanja-divljakovic.jpg' },
-  { name: 'Amar Mujezinović',    role: 'Protocol Engineer', company: 'Curvy',               photo: '/images/mentors/amar-mujezinovic.jpg' },
+  // { name: 'Bojan Antunović',     role: 'R&D Researcher',    company: 'Decenter',            photo: '/images/mentors/bojan-antunovic.png' },
+  // { name: 'Todor Todorović',     role: 'Software Engineer', company: '',                    photo: '/images/mentors/todor-todorovic.jpg' },
+  { name: 'Stefan Mitrović',     role: 'Blockchain Protocol Engineer', company: 'Bloxico',               photo: '/images/mentors/stefan-mitrovic.jpg' },
+  // { name: 'Ivan Džambasanović',  role: 'R&D Engineer',      company: 'Decenter',            photo: '/images/mentors/ivan-dzambasanovic.jpg' },
+  // { name: 'Stefan Nikolić',      role: 'Software Engineer', company: 'gno.land',            photo: '/images/mentors/stefan-nikolic.jpg' },
+  { name: 'Nemanja Divljaković', role: 'Software Engineer', company: 'Hydration.net', photo: '/images/mentors/nemanja-divljakovic.jpg' },
+  { name: 'Amar Mujezinović',    role: 'Backend Engineer', company: 'Chainberry',               photo: '/images/mentors/amar-mujezinovic.jpg' },
 ]
 
 function initials(name) {
@@ -20,7 +20,7 @@ export default function Mentors() {
         <span className="block text-accent text-[0.72rem] font-bold tracking-[0.2em] uppercase mb-3">
           Mentori
         </span>
-        <h2 className="font-heading text-3xl mb-12">Prošlogodišnji Mentori</h2>
+        <h2 className="font-heading text-3xl mb-12">Mentori</h2>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8">
           {mentors.map(m => (

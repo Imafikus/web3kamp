@@ -1,10 +1,10 @@
 const speakers = [
+  { name: 'Lazar Travica',         role: 'Technical Co-Founder @ Curvy',                   topic: 'Motivacija za Web3',                                 photo: '/images/speakers/lazar-travica.jpeg' },
   { name: 'Stefan Nožinić',       role: 'Co-Head of Computer Science @ Petnica Science Center', topic: 'Uvod u Web3',                                          photo: '/images/speakers/stefan-nozinjic.jpg' },
   { name: 'Vuk Gavrilović',       role: 'Protocol Engineer',                                    topic: 'Algoritmi i strukture podataka u blockchain čvorovima', photo: '/images/speakers/vuk-gavrilovic.jpg' },
   { name: 'Branislav Milojković', role: 'Education Content Specialist @ Eduterium',             topic: 'Pametni ugovori i virtuelne mašine',                   photo: '/images/speakers/branislav-milojkovic.jpg' },
-  { name: 'Stanoje Rnić',         role: 'Founder and President @ Archibald',                   topic: 'Blockchain forenzika',                                 photo: '/images/speakers/stanoje-rnic.jpg' },
-  { name: 'Ognjen Kurtić',        role: 'CTO @ Finspot',                                       topic: 'Praktična primena tokena',                             photo: '/images/speakers/ognjen-kurtic.jpg' },
-  { name: 'Ilija Rilaković',      role: 'Legal @ ETH Belgrade',                                topic: 'Blockchain regulativa',                                photo: '/images/speakers/ilija-rilakovic.jpg' },
+  { name: 'Ivan Džambasanović',      role: 'Web3 R&D Engineer @ Decenter',                                topic: 'Ethereum workshop',                                photo: '/images/speakers/ivan-dzambasanovic.jpg' },
+  { name: 'Miljan Tekić',        role: 'Co-Founder @ Tenderly',                                       topic: 'Bulding a bussiness in web3 & Agent payments',                             photo: '/images/speakers/miljan-tekic.jpeg' },
   { name: 'Aljoša Makević',       role: 'PM @ ETH Belgrade',                                   topic: 'Rollups 101',                                          photo: '/images/speakers/aljosa-makevic.jpg' },
   { name: 'Marko Veniger',        role: 'R&D Engineer @ Tenderly',                             topic: 'Upravljanje blockchain ključevima',                    photo: '/images/speakers/marko-veniger.jpg' },
   { name: 'Marko Vukolić',        role: 'Co-Founder and CEO @ Bitcoin Scaling Labs',           topic: 'Bitcoin i blockchain: kako i zašto?',                  photo: '/images/speakers/marko-vukolic.jpg' },
@@ -25,7 +25,7 @@ export default function Speakers() {
         <span className="block text-accent text-[0.72rem] font-bold tracking-[0.2em] uppercase mb-3">
           Predavači
         </span>
-        <h2 className="font-heading text-3xl text-light mb-12">Prošlogodišnji Predavači</h2>
+        <h2 className="font-heading text-3xl text-light mb-12">Potvrđeni Predavači</h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {speakers.map(s => (
