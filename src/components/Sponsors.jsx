@@ -10,6 +10,7 @@ const sponsors = [
 const friends = [
   { name: 'Netokracija',      url: 'https://www.netokracija.rs/', logo: '/images/friends/friend-netokracija.png' },
   { name: 'Fondacija Petlja',      url: 'https://www.petlja.org/', logo: '/images/friends/friend-petlja.svg' },
+  { name: 'Garaža',      url: 'https://garaza.org/', logo: '/images/friends/friend-garaza.svg' },
 ]
 
 export default function Sponsors() {
