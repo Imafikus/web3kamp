@@ -4,13 +4,13 @@ const speakers = [
   { name: 'Vuk Gavrilović',       role: 'Protocol Engineer',                                    topic: 'Algoritmi i strukture podataka u blockchain čvorovima', photo: '/images/speakers/vuk-gavrilovic.jpg' },
   { name: 'Branislav Milojković', role: 'Education Content Specialist @ Eduterium',             topic: 'Pametni ugovori i virtuelne mašine',                   photo: '/images/speakers/branislav-milojkovic.jpg' },
   { name: 'Ivan Džambasanović',      role: 'Web3 R&D Engineer @ Decenter',                                topic: 'Ethereum workshop',                                photo: '/images/speakers/ivan-dzambasanovic.jpg' },
-  { name: 'Miljan Tekić',        role: 'Co-Founder @ Tenderly',                                       topic: 'Bulding a bussiness in web3 & Agent payments',                             photo: '/images/speakers/miljan-tekic.jpeg' },
-  { name: 'Aljoša Makević',       role: 'PM @ ETH Belgrade',                                   topic: 'Rollups 101',                                          photo: '/images/speakers/aljosa-makevic.jpg' },
-  { name: 'Marko Veniger',        role: 'R&D Engineer @ Tenderly',                             topic: 'Upravljanje blockchain ključevima',                    photo: '/images/speakers/marko-veniger.jpg' },
-  { name: 'Marko Vukolić',        role: 'Co-Founder and CEO @ Bitcoin Scaling Labs',           topic: 'Bitcoin i blockchain: kako i zašto?',                  photo: '/images/speakers/marko-vukolic.jpg' },
-  { name: 'Luka Ćirić',           role: 'City Lead Novi Sad @ Superteam Balkan',              topic: 'Solana: Zero to Hero',                                photo: '/images/speakers/luka-ciric.jpg' },
-  { name: 'Ognjen Aleksić',       role: 'Blockchain developer @ Ceres Solutions',              topic: 'Rust meets DeFi',                                     photo: '/images/speakers/ognjen-aleksic.jpg' },
-  { name: 'Lav Hudak',            role: 'DevRel @ Gno.land',                                   topic: 'DAOs',                                                photo: '/images/speakers/lav-hudak.jpg' },
+  { name: 'Miljan Tekić',        role: 'Co-Founder @ Tenderly',                                       topic: 'Bulding a bussiness in web3 & Agentic payments',                             photo: '/images/speakers/miljan-tekic.jpeg' },
+  { name: 'Nebojša Urošević',       role: 'Co-Founder @ Tenderly',                                   topic: 'TBA',                                          photo: '/images/speakers/nebojsa-urosevic.jpg' },
+  // { name: 'Marko Veniger',        role: 'R&D Engineer @ Tenderly',                             topic: 'Upravljanje blockchain ključevima',                    photo: '/images/speakers/marko-veniger.jpg' },
+  // { name: 'Marko Vukolić',        role: 'Co-Founder and CEO @ Bitcoin Scaling Labs',           topic: 'Bitcoin i blockchain: kako i zašto?',                  photo: '/images/speakers/marko-vukolic.jpg' },
+  // { name: 'Luka Ćirić',           role: 'City Lead Novi Sad @ Superteam Balkan',              topic: 'Solana: Zero to Hero',                                photo: '/images/speakers/luka-ciric.jpg' },
+  // { name: 'Ognjen Aleksić',       role: 'Blockchain developer @ Ceres Solutions',              topic: 'Rust meets DeFi',                                     photo: '/images/speakers/ognjen-aleksic.jpg' },
+  // { name: 'Lav Hudak',            role: 'DevRel @ Gno.land',                                   topic: 'DAOs',                                                photo: '/images/speakers/lav-hudak.jpg' },
 ]
 
 function initials(name) {
