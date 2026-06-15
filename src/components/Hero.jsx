@@ -64,7 +64,7 @@ export default function Hero() {
         </a>
       <div className="mt-4">
         <span>
-          Prijave traju do 15. juna!
+          Prijave su produžene do 20. juna!
         </span>
       </div>
       

@@ -19,7 +19,7 @@ const faqs = [
   },
   {
     q: 'Do kada mogu da se prijavim?',
-    a: 'Prijave traju do 15. juna.',
+    a: 'Prijave su produžene do 20. juna.',
   },
   {
     q: 'Da li je u troškove uračunat prevoz?',
