@@ -1,9 +1,14 @@
-const sponsors = [
-  // { name: 'Ethereum Foundation', url: 'https://ethereum.foundation', logo: '/images/sponsors/sponsor-ethereum.png' },
-  { name: 'Tenderly',            url: 'https://tenderly.co',          logo: '/images/sponsors/sponsor-tenderly.png' },
-  { name: 'Superteam',           url: 'https://stblkn.notion.site/',        logo: '/images/sponsors/sponsor-superteam.png' },
-  { name: 'Decenter',            url: 'https://decenter.org',         logo: '/images/sponsors/sponsor-decenter.png', logoClass: 'w-[185px] h-[70px]' },
-  { name: '0xcurvy',             url: 'https://0xcurvy.io',           logo: '/images/sponsors/sponsor-curvy.png' },
+const goldSponsors = [
+  { name: '0xcurvy', url: 'https://0xcurvy.io', logo: '/images/sponsors/sponsor-curvy.png' },
+  { name: 'Superteam', url: 'https://stblkn.notion.site/', logo: '/images/sponsors/sponsor-superteam.png' },
+]
+
+const silverSponsors = [
+  { name: 'Tenderly', url: 'https://tenderly.co', logo: '/images/sponsors/sponsor-tenderly.png' },
+]
+
+const bronzeSponsors = [
+  { name: 'Decenter', url: 'https://decenter.org', logo: '/images/sponsors/sponsor-decenter.png' },
 ]
 
 
@@ -49,22 +54,67 @@ export default function Sponsors() {
           <span className="block text-accent text-[0.72rem] font-bold tracking-[0.2em] uppercase mb-3">
             Podržavaju nas
           </span>
-          <h2 className="font-heading text-[clamp(1.6rem,3vw,2.2rem)] mb-12">
-            Sponzori kampa
-          </h2>
-          <div className="flex flex-wrap justify-center gap-4">
-            {sponsors.map(s => (
-              <a
-                key={s.name}
-                href={s.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                title={s.name}
-                className="flex items-center justify-center bg-light rounded-sm w-47.5 h-24.5 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg"
-              >
-                <img src={s.logo} alt={s.name} className={`${s.logoClass ?? 'w-33 h-12'} object-contain`} />
-              </a>
-            ))}
+
+          <div className="space-y-14 text-left">
+            <div>
+              <h3 className="font-heading text-[clamp(1.35rem,2.3vw,1.8rem)] mb-6 text-center">
+                Zlatni Sponzori
+              </h3>
+              <div className="flex flex-wrap justify-center gap-4">
+                {goldSponsors.map(sponsor => (
+                  <a
+                    key={sponsor.name}
+                    href={sponsor.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title={sponsor.name}
+                    className="flex items-center justify-center bg-light rounded-sm w-47.5 h-24.5 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg"
+                  >
+                    <img src={sponsor.logo} alt={sponsor.name} className={`${sponsor.logoClass ?? 'w-43 h-12'} object-contain`} />
+                  </a>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <h3 className="font-heading text-[clamp(1.35rem,2.3vw,1.8rem)] mb-6 text-center">
+                Srebrni Sponzori
+              </h3>
+              <div className="flex flex-wrap justify-center gap-4">
+                {silverSponsors.map(sponsor => (
+                  <a
+                    key={sponsor.name}
+                    href={sponsor.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title={sponsor.name}
+                    className="flex items-center justify-center bg-light rounded-sm w-40.5 h-17.5 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg"
+                  >
+                    <img src={sponsor.logo} alt={sponsor.name} className={`${sponsor.logoClass ?? 'w-25 h-12'} object-contain`} />
+                  </a>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <h3 className="font-heading text-[clamp(1.35rem,2.3vw,1.8rem)] mb-6 text-center">
+                Bronzani Sponzori
+              </h3>
+              <div className="flex flex-wrap justify-center gap-4">
+                {bronzeSponsors.map(sponsor => (
+                  <a
+                    key={sponsor.name}
+                    href={sponsor.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title={sponsor.name}
+                    className="flex items-center justify-center bg-light rounded-sm w-35.5 h-14.5 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg"
+                  >
+                    <img src={sponsor.logo} alt={sponsor.name} className={`${sponsor.logoClass ?? 'w-24 h-24'} object-contain`} />
+                  </a>
+                ))}
+              </div>
+            </div>
           </div>
 
           <div className="mt-16">

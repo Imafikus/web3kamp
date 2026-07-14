@@ -1,8 +1,8 @@
 const mentors = [
-  // { name: 'Bojan Antunović',     role: 'R&D Researcher',    company: 'Decenter',            photo: '/images/mentors/bojan-antunovic.png' },
+  { name: 'Bojan Antunović',     role: 'Senior Technical Account Manager',    company: 'Chainlink',            photo: '/images/mentors/bojan-antunovic.png' },
   // { name: 'Todor Todorović',     role: 'Software Engineer', company: '',                    photo: '/images/mentors/todor-todorovic.jpg' },
   { name: 'Stefan Mitrović',     role: 'Blockchain Protocol Engineer', company: 'Bloxico',               photo: '/images/mentors/stefan-mitrovic.jpg' },
-  // { name: 'Ivan Džambasanović',  role: 'R&D Engineer',      company: 'Decenter',            photo: '/images/mentors/ivan-dzambasanovic.jpg' },
+  { name: 'Ivan Džambasanović',  role: 'R&D Engineer',      company: 'Decenter',            photo: '/images/mentors/ivan-dzambasanovic.jpg' },
   // { name: 'Stefan Nikolić',      role: 'Software Engineer', company: 'gno.land',            photo: '/images/mentors/stefan-nikolic.jpg' },
   { name: 'Nemanja Divljaković', role: 'Software Engineer', company: 'Hydration.net', photo: '/images/mentors/nemanja-divljakovic.jpg' },
   { name: 'Amar Mujezinović',    role: 'Backend Engineer', company: 'Chainberry',               photo: '/images/mentors/amar-mujezinovic.jpg' },
@@ -22,7 +22,7 @@ export default function Mentors() {
         </span>
         <h2 className="font-heading text-3xl mb-12">Mentori</h2>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-8">
           {mentors.map(m => (
             <div key={m.name} className="text-center">
               <div className="w-[90px] h-[90px] rounded-full bg-dark flex items-center justify-center mx-auto mb-4 overflow-hidden">
