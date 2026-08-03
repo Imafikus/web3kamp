@@ -9,8 +9,10 @@ const speakers = [
   { name: 'Ilija Rilaković',        role: 'Founder @ Law Decoded',                             topic: 'Bezbednost podataka i regulative vezane za finansijske instrumente',                    photo: '/images/speakers/ilija-rilakovic.jpg' },
   { name: 'Rajko Zagorac',        role: 'Solidity Engineer @ Decenter',           topic: 'Inovacije u DeFi',                  photo: '/images/speakers/rajko-zagorac.png' },
   { name: 'Branko Vitorović',        role: 'Backend Engineer @ Decenter',           topic: 'Inovacije u DeFi',                  photo: '/images/speakers/branko-vitorovic.png' },
-  // { name: 'Ognjen Aleksić',       role: 'Blockchain developer @ Ceres Solutions',              topic: 'Rust meets DeFi',                                     photo: '/images/speakers/ognjen-aleksic.jpg' },
-  // { name: 'Lav Hudak',            role: 'DevRel @ Gno.land',                                   topic: 'DAOs',                                                photo: '/images/speakers/lav-hudak.jpg' },
+  { name: 'Ognjen Aleksić',       role: 'Blockchain developer @ 4PTO',              topic: 'Solana Workshop',                                     photo: '/images/speakers/ognjen-aleksic.jpg' },
+  { name: 'Dejan Karavla',       role: 'Co-Founder Cognios',              topic: 'Solana Workshop',                                     photo: '/images/speakers/dejan-karavla.jpeg' },
+  { name: 'Đurađ Đurić',       role: 'Co-Founder Cognios',              topic: 'Solana Workshop',                                     photo: '/images/speakers/djuradj-djuric.jpeg' },
+  { name: 'Darko Panić',       role: 'Senior Blockchain Engineer @ MetaWealth',              topic: 'Solana Workshop',                                     photo: '/images/speakers/darko-panic.jpeg' },
 ]
 
 function initials(name) {
